@@ -33,6 +33,7 @@ tt range(tt min_value, tt max_value, engine& rng = thread_rng()) {
 }
 
 /* Walker's Alias Method 代码内部做了权重修正 */
+// https://www.keithschwarz.com/darts-dice-coins/
 //
 // 时间复杂度:
 //   初始化：O(n)（构建 Alias 表）
